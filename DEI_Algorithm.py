@@ -1,5 +1,3 @@
-# This is the algorithm that will show the company the analytics of their company, to run open it in an IDE such as PyCharms.
-
 import numpy as np
 import pandas as pd
 import plotly.offline as py
@@ -10,7 +8,7 @@ import plotly.io as pio
 
 color = sns.color_palette()
 py.init_notebook_mode(connected=True)
-get_ipython().run_line_magic('matplotlib', 'inline')
+# get_ipython().run_line_magic('matplotlib', 'inline')
 pio.renderers.default = 'browser'
 
 
@@ -232,6 +230,6 @@ def inclusion(csv):
 
 
 if __name__ == "__main__":
-    diversity("HRDataset_v14.csv")
-    equity("HRDataset_v14.csv")
-    inclusion("HRDataset_v14.csv")
+    diversity("HRDataset_v14 - HRDataset_v14.csv")
+    equity("HRDataset_v14 - HRDataset_v14.csv")
+    inclusion("HRDataset_v14 - HRDataset_v14.csv")
