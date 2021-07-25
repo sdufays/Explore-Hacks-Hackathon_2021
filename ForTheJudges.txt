@@ -5,7 +5,7 @@ for ExploreHacks 2021. The instructions to view the site and the included data
 analytics are as follows:
 
         |----------------------------------------------------------------------|
-      /      1. Download the 'Website' Directory within this Repo as a zip      \
+      /      1. Download the 'website' Directory within this Repo as a .zip      \
      /       2. Uncompress the zipped folder                                     \   
     /        3. Open the uncompressed folder                                      \
     \        4. Click the 'Diversity.html' file (make sure it opens in Chrome)    /
