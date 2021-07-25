@@ -1,12 +1,3 @@
-
-
----------- Forwarded message ---------
-From: Jennifer Chiou <pl247091@ahschool.com>
-Date: Sun, Jul 25, 2021 at 10:05 AM
-Subject: Finished Python Script
-To: Mudit Marwaha <pl238462@ahschool.com>, Alizain Fatehali <pl246901@ahschool.com>, Sarah Dufays <pl247711@ahschool.com>
-
-
 import numpy as np
 import pandas as pd
 import plotly.offline as py
