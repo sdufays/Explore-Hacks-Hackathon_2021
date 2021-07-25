@@ -1,3 +1,4 @@
+# When Testing, make sure to also upload your CSV file (Or our Demo File) in your IDE
 import numpy as np
 import pandas as pd
 import plotly.offline as py
