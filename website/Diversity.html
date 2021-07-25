@@ -4,6 +4,55 @@
 		<meta charset= "utf-8">
 		<title> Developing Diversity </title>
 		<style>
+			div.b
+			{
+				* {box-sizing: border-box}
+				body {font-family: "Lato", sans-serif;}
+
+				/* Style the tab */
+				.tab {
+				  float: left;
+				  border: 1px solid #ccc;
+				  background-color: #f1f1f1;
+				  width: 30%;
+				  height: 300px;
+				}
+
+				/* Style the buttons inside the tab */
+				.tab button {
+				  display: block;
+				  background-color: inherit;
+				  color: black;
+				  padding: 22px 16px;
+				  width: 100%;
+				  border: none;
+				  outline: none;
+				  text-align: left;
+				  cursor: pointer;
+				  transition: 0.3s;
+				  font-size: 17px;
+				}
+
+				/* Change background color of buttons on hover */
+				.tab button:hover {
+				  background-color: #ddd;
+				}
+
+				/* Create an active/current "tab button" class */
+				.tab button.active {
+				  background-color: #ccc;
+				}
+
+				/* Style the tab content */
+				.tabcontent {
+				  float: left;
+				  padding: 0px 12px;
+				  border: 1px solid #ccc;
+				  width: 70%;
+				  border-left: none;
+				  height: 300px;
+				}
+			}
 			div.a
 			{
 				text-align: center;
@@ -44,7 +93,7 @@
 			#Home {background-color: #5300a6;}
 			#About {background-color: #ffbdef;}
 			#Analytics {background-color: white;}
-			#Solutions {background-color: white;}
+			#Solutions {background-color: #a6f2e7;}
 			
 		</style>
 	</head>
@@ -71,8 +120,9 @@
 	</div>
 
 	<div id="Solutions" class="tabcontent">
-		<font face = "Courier"><header style= "font-size: 40px"> <u> How To Make Your Business More Diverse Today! </u> </header></font></br>
-		<font face = "Courier"><header style= "font-size: 35px"> <b>How to Increase Diversity: </b> </header></font></br>
+		<div class="a"><font face = "Courier"><header style= "font-size: 40px"> <u> How To Make Your Business More Diverse Today </u> </header></font></div></br>
+		</br>
+		<font face = "Courier"><header style= "font-size: 35px"> <b>How to Increase Diversity: </b> </header></font></br> 
 		<p style= "font-size: 20px"> 
 		To begin with, highlight diversity in your company’s career page and offer targeted scholarships/internships and diverse mentorships. </br>
 		Diversity and cultural sensitivity training would also be beneficial. </br>
@@ -92,11 +142,56 @@
 		The first step is to build consensus about the problem: a lack of equity. Then, identify where it comes from. </br>
 		This is important because if employees do not understand the problem, initiatives to build equity will be perceived negatively and will be more difficult to implement.</br>
 		After that, a model called the PRESS model by the Harvard Business Review can be applied. </br>
-		The first two stages are Problem Awareness and Root-Cause Analysis, in which people must identify the problem and locate its main source. </br>
-		For example, the problem of racism may be caused by psychological factors (such as cognitive bias), but it mostly results from structural factors (such as established laws, institutional practices, and cultural norms). </br>
-		If a workplace targets and blames individuals for racism without taking a step back and seeing if their organizational structure is contributing to the discrimination, it will fail to increase equity.</br>
 		</p>
-		<div class="a"><img src="Diagraming-removebg-preview.png"  style="width:900px;height:600px;"></div>
+		<font face = "Courier"><header style= "font-size: 35px"> <u>Harvard PRESS Model Breakdown</u> </header></font></br>
+		<p style= "font-size: 20px"> Click on the buttons to view the different steps of the model:</p>
+		<div class="b">
+		<div class= "a">
+		  <button class="tablinkss" onclick="openCity(event, 'Stage 1')" id="defaultsOpen" style="height:50px;width:200px; font-size: 18px ; background-color: #d75e5b">Problem Awareness</button>
+		  <button class="tablinkss" onclick="openCity(event, 'Stage 2')" style="height:50px;width:200px; font-size: 18px ;background-color: #d7955b">Root-Cause Analysis</button>
+		  <button class="tablinkss" onclick="openCity(event, 'Stage 3')"style="height:50px;width:200px; font-size: 18px; background-color: #dde54d">Empathy</button>
+		  <button class="tablinkss" onclick="openCity(event, 'Stage 4')"style="height:50px;width:200px; font-size: 18px; background-color: #95ec7a">Strategy</button>
+		  <button class="tablinkss" onclick="openCity(event, 'Stage 5')"style="height:50px;width:200px; font-size: 18px; background-color: #a6acf2">Sacrifice</button>
+		 
+		 </div>
+		</div>
+
+		<div id="Stage 1" class="tabcontents" style= "background-color: #d75e5b">
+			<p style="font-size:20px ">
+				The first stage is Problem Awareness, in which the company must identify the problem. </br></br>
+			</p>
+		</div>
+
+		<div id="Stage 2" class="tabcontents" style= "background-color: #d7955b">
+			<p style="font-size:20px"> 
+				The second stage is Root-Cause Analysis, in which the company must locate the problems main source. </br>
+				For example, the problem of racism may be caused by psychological factors (such as cognitive bias), but it mostly results from structural factors (such as established laws, institutional practices, and cultural norms). </br>
+				If a workplace targets and blames individuals for racism without taking a step back and seeing if their organizational structure is contributing to the discrimination, it will fail to increase equity.</br>
+				</p>
+		</div>
+
+		<div id="Stage 3" class="tabcontents" style= "background-color: #dde54d">
+			<p style="font-size:20px">
+				The third stage is Empathy, which can be promoted through exposure and education about discrimination/inequality. </br></br>
+			</p>
+		</div>
+		<div id="Stage 4" class="tabcontents" style= "background-color: #95ec7a">
+			<p style="font-size:20px">
+				The fourth stage is Strategy, which outlines how to solve the problem. </br>
+				Most actionable strategies for change address three distinct but interconnected categories: personal attitudes, informal cultural norms, and formal institutional policies. </br>
+			</p>
+		</div>
+		<div id="Stage 5" class="tabcontents" style= "background-color: #a6acf2">
+			<p style="font-size:20px">
+				The fifth stage is Sacrifice, uplifting marginalized groups and maintaining treatment to the majority is not mutually exclusive.</br>
+				Although some might assume that increasing equity requires sacrificing fairness and giving “special” favors to minorities, that is not the case because fairness requires treating people equitably—which may entail treating people differently, but in a way that makes sense. </br>
+				Thus, even if small sacrifices might be made, it would still benefit the whole community. </br>
+			</p>
+		</div>
+		<script src= "tabs.js"></script>
+		</br>
+		<div class="a"><img src="comic.jpg"  style="width:900px;height:500px;"></div>
+	
 	</div>
 
 	<div id="About" class="tabcontent">
@@ -147,7 +242,7 @@
 			They need to be flexible and change to fit the organization’s social climate, and they need to be modeled based on the requests of the people they are made for. </br>
 		</p>
 		<div class="a">
-		<img src="Chart-removebg-preview.png"  style="width:700px;height:600px;">
+		<img src="deivenndiagram.png"  style="width:700px;height:600px;">
 		</div> </br>
 		<font face = "Courier"><header style= "font-size: 40px"> <u> <b> So,Start With Us </b> </u> </header></font><br />
 		<p  style= "font-size: 20px">
