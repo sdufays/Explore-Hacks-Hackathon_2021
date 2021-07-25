@@ -65,7 +65,7 @@ def diversity(csv):
     diversity_score = 5
 
     # gender
-    total_males = sum(csv, 'Sex', 'M ')
+    total_males = sum(csv, 'Sex', 'M')
     num_rows = df.shape[0]
     percentage_male = total_males / num_rows * 100
     total_females = sum(csv, 'Sex', 'F')
