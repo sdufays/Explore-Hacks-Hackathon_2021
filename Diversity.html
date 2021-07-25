@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset= "utf-8">
+		<title> Developing Diversity </title>
+		<style>
+			div.a
+			{
+				text-align: center;
+			}
+			* {box-sizing: border-box}
+
+			/* Set height of body and the document to 100% */
+			body, html {
+			  height: 100%;
+			  margin: 0;
+			  font-family: Times New Roman;
+			}
+
+			/* Style tab links */
+			.tablink {
+			  background-color: #555;
+			  color: white;
+			  float: left;
+			  border: none;
+			  outline: none;
+			  cursor: pointer;
+			  padding: 14px 16px;
+			  font-size: 17px;
+			  width: 25%;
+			}
+
+			.tablink:hover {
+			  background-color: #777;
+			}
+
+			/* Style the tab content (and add height:100% for full page content) */
+			.tabcontent {
+			  color: black;
+			  display: none;
+			  padding: 100px 20px;
+			}
+			
+			#Home {background-color: white;}
+			#Analytics {background-color: white;}
+			#Solutions {background-color: white;}
+			#About {background-color: #f5f570;}
+			
+		</style>
+	</head>
+	<body style="background-color:#71EFA3;">
+		<div class="a">
+		<font face = "Brush Script MT" size = "5">
+		<header style= "font-size: 100px;">
+			Developing Diversity
+		</header></header></font><br />
+		</div>
+	<button class="tablink" onclick="openPage('Home', this, 'black')" >Home</button>
+	<button class="tablink" onclick="openPage('About', this, 'black')" id="defaultOpen" >About</button>
+	<button class="tablink" onclick="openPage('Analytics', this, 'black')">Analytics</button>
+	<button class="tablink" onclick="openPage('Solutions', this, 'black')">Solutions</button>
+	<div id="Home" class="tabcontent">
+	  <h3>Home</h3>
+	  <p>Home is where the heart is..</p>
+	</div>
+
+	<div id="Analytics" class="tabcontent">
+	  <h3>Analytics</h3>
+	  <p>Some news this fine day!</p> 
+	</div>
+
+	<div id="Solutions" class="tabcontent">
+	  <h3>Solutions</h3>
+	  <p>Get in touch, or swing by for a cup of coffee.</p>
+	</div>
+
+	<div id="About" class="tabcontent">
+		<font face = "Courier">
+		<div class="a">
+		<header style= "font-size: 40px"> <u> Who We Are </u> </header></font><br />
+		</div>
+		<p style= "font-size: 20px">
+			Here at Developing Diversity, we have a passion for data analysis, and we believe in the value of quantification. 
+			Often, visualizing exactly what a problem looks like is the push in the right direction that ultimately leads to a solution. 
+			And, after over a year of quarantine and job loss and economic turmoil, we know that the world is in dire need of solutions.
+		</p>
+		<p  style= "font-size: 20px">
+			So, during the ExploreHacks 2021 Hackathon, we began developing a website with a data analysis software to quantify companies’ levels of diversity, equity, and inclusion (DEI). </br>
+			Here, we work with companies’ employee data to assess diversity and find hidden bias, and then we provide concrete tips on how to combat bias and increase DEI. </br>
+			In doing this, we hope to create a sense of community and belonging within a workplace, so that no one will be undervalued or mistreated. </br>
+
+		</p>
+		<div class="a">
+		<img src="diversity-removebg-preview.png"  style="width:1000px;height:500px;">
+		</div>
+		</br>
+		<header style= "font-size: 35px"> <u> Why Do Diversity, Equity, and Inclusion Matter? </u> </header></font><br />
+		<p  style= "font-size: 20px">
+			Because two heads are better than one. </br>
+			Because when an office, school, or movie set becomes an echo chamber for the white man, everyone else is drowned out. </br>
+			Valuable ideas and creative solutions are muffled, and cries for help are silenced as they come. </br>
+			Diversity matters because regardless of race, skin color, gender, sexual orientation, or financial status, everyone’s voices deserve to be heard. </br>
+		</p>
+		<h1 style= "font-size: 30px"> <b> But diversity alone isn't enough. </b> </h1>
+		<p  style= "font-size: 20px">
+			Having some minority employees or a few female administrators isn’t enough if their work isn’t being pushed forward or valued. </br>
+			If these marginalized voices aren’t being amplified to the same volume as everyone else’s, then that’s not inclusion. </br>
+			That’s tokenism––just a symbolic action that squeezes in some people from underrepresented groups, without truly valuing their contributions.</br>
+		</p>
+		<h1 style= "font-size: 30px"> <b>Inclusion is just as necessary as diversity </b> </h1>
+		<p  style= "font-size: 20px">
+			Inclusion is what actively allows for open dialogue and promotes creativity, making companies more representative and in-tune to their consumers’ needs. </br>
+			In fact, it has been proven that diverse and inclusive companies do better! </br>
+			When companies establish inclusive business cultures and policies, they are more likely to report 59.1% increases in creativity, innovation, and openness, and 37.9% better assessment of consumer interest and demand. </br>
+			But with the undying systems of oppression in the United States that rob people of opportunities right under our noses, creating diversity and inclusion is much easier said than done. </br>
+			It’s not just a one-time “Everyone is equally valued and considered at this company now!” </br>
+			It’s not a rule that can be announced and then followed.</br>
+		</p>
+		<h1 style= "font-size: 30px"> <b>Diversity and Inclusion have to be built. </b> </h1>
+		<p  style= "font-size: 20px">
+			Systems that increase equity have to be created, enforced, and advertised to the people who need them. </br>
+			They need to be flexible and change to fit the organization’s social climate, and they need to be modeled based on the requests of the people they are made for. </br>
+		</p>
+		<div class="a">
+		<img src="Diagram.png"  style="width:700px;height:600px;">
+		</div> </br>
+		<header style= "font-size: 40px"> <u> So, Start With Us </u> </header></font><br />
+		<p  style= "font-size: 20px">
+			Reprogramming the culture of a workplace to become richer and more inclusive is no easy task, so our data analysis software helps companies clearly see the level of diversity, equity, and inclusion present within them. </br>
+			After our algorithms quantify their levels of DEI, they can turn their attention to our Solutions tab. </br>
+			There, we provide ways for companies to become more equitable, such as blind hiring methods and employee feedback systems. </br>
+		</p>
+		<div class="a">
+		<img src="Success-removebg-preview.png"  style="width:700px;height:500px;">
+		</div> </br>
+		<p  style= "font-size: 20px">
+			However, even with all of our data, we stress that the benefits of DEI cannot be obtained if a company is just recruiting new employees for the sake of meeting a quota. </br>
+			True DEI is intrinsically marked by the understanding that people of every background are valuable and should be appreciated. </br>
+		</p>
+		<div class="a">
+		<p style= "font-size: 50px ; color:blue"> <u>Remember, change starts with you! </u></p>
+		</div>
+	</div>
+	<script src= "tabs.js"></script>
+	</body>
+</html>
