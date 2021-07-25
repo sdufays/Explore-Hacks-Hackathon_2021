@@ -1,3 +1,5 @@
+# This is the algorithm that will show the company the analytics of their company, to run open it in an IDE such as PyCharms.
+
 import numpy as np
 import pandas as pd
 import plotly.offline as py
