@@ -230,6 +230,6 @@ def inclusion(csv):
 
 
 if __name__ == "__main__":
-    diversity("HRDataset_v14")
-    equity("HRDataset_v14")
-    inclusion("HRDataset_v14")
+    diversity("sample_dataset.csv")
+    equity("sample_dataset.csv")
+    inclusion("sample_dataset.csv")
