@@ -65,7 +65,7 @@ def diversity(csv):
     diversity_score = 5
 
     # gender
-    total_males = sum(csv, 'Sex', 'M ')
+    total_males = sum(csv, 'Sex', 'M')
     num_rows = df.shape[0]
     percentage_male = total_males / num_rows * 100
     total_females = sum(csv, 'Sex', 'F')
@@ -117,7 +117,7 @@ def diversity(csv):
 def equity(csv):
     df = pd.read_csv(csv)
     average_salary = int(df['Salary'].mean())
-    print("The average salary in your company is " + str(average_salary))
+    print("The average salary in your company is $" + str(average_salary))
     equity_score = 6
 
     box_and_whisker(csv, "Sex", "Salary", "Correlation Between Employee Gender and Salary")
@@ -206,7 +206,7 @@ def inclusion(csv):
         print("Your female employees seem to be less satisfied than your male employees. This can be solved by creating a more inclusive environment through open discussions and reflection. Please see our Solutions Tab for a more in-depth recommendation.")
         inclusion_score = inclusion_score - 1
     elif male_avg_satisf < fem_avg_satisf:
-        print("Your male employees seem to be less satisfied than your female employees. Think about why this may be, and address it through open discussion. Please see our SOlutions Tab for a more in-depth way to do so.")
+        print("Your male employees seem to be less satisfied than your female employees. Think about why this may be, and address it through open discussion. Please see our Solutions Tab for a more in-depth way to do so.")
         inclusion_score = inclusion_score - 1
     else:
         print("Your employees seem to be equally satisfied regardless of gender, but look at the box and whisker plot we've provided for you to see if you can improve satisfaction as a whole.")
