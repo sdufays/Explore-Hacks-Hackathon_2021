@@ -3,7 +3,7 @@ from flask import Flask, redirect, url_for, render_template
 from main import diversity, equity, inclusion
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 # give route to show Flask the path to get to the function
 @app.route("/")  # the / is default url
