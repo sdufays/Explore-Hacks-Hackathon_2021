@@ -110,7 +110,7 @@
 	<button class="tablink" onclick="openPage('Solutions', this, 'black')">Solutions</button>
 	<div id="Home" class="tabcontent">
 	  <div class="a">
-	  <img src= "images/Developing_Diversity.gif"></img>
+	  <image src = "{{url_for('static', filename= 'images/Developing_Diversity.gif')}}"></image>
 	  </div>
 	</div>
 
@@ -119,9 +119,12 @@
 		<!--<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@MuditMarwaha/tester?lite=true&outputonly-1"</iframe>-->
 		<div class= "a"><font face = "Courier"><header style= "font-size: 35px"><a href="https://gitlab.com/pl238462/developing-diversity/-/blob/main/DEI_Algorithm.py"> <b>D.E.I. Algorithm </b> </a>
 		</header></font> </div> </br>
+		<center><button type="button">Diversity</button>
+		<button type="button">Equity</button>
+		<button type="button">Inclusion</button></center>
 		<div class= "a"><video controls loop width="1000" height="500">
-			<source src="images/graphs.mov" type="video/mov">
-			<source src="images/graphs.mp4" type="video/mp4">
+			<source src = "{{url_for('static', filename= 'images/graphs.mov')}}"  type="video/mov"></source>
+			<source src = "{{url_for('static', filename= 'images/graphs.mp4')}}" type="video/mp4"></source>
 			Your browser does not support the video tag.
 		</video>
 		</br> </br>
@@ -136,7 +139,7 @@
 		To begin with, highlight diversity in your company’s career page and offer targeted scholarships/internships and diverse mentorships. </br>
 		Diversity and cultural sensitivity training would also be beneficial. </br>
 		Ask employees to refer job candidates they know from under-represented groups in your company and offer rewards or bonuses for recommending diverse candidates who join the company. </br></p>
-		<div class="a"><img src="images/People-removebg-preview.png"  style="width:900px;height:400px;"></div>
+		<div class="a"><img src = "{{url_for('static', filename= 'images/People-removebg-preview.png')}}" style="width:900px;height:400px;"></div>
 		<font face = "Courier"><header style= "font-size: 35px"> <b>How to Increase Inclusivity: </b> </header></font></br>
 		<p style= "font-size: 20px"> 
 		First, educate managers about the importance of inclusion, since managers act as the bridge between employees and management.
@@ -145,7 +148,7 @@
 		It is also beneficial to celebrate differences, for example, by recognizing and celebrating days with significance to other communities, such as Black History Month in February, Pride Month in June, etc. </br>
 		Ensure that every new hire is made aware that your company is a safe place for every gender, race, culture, or disability, and emphasize the importance of using the correct pronouns. </br>
 		</p>
-		<div class="a"><img src="images/People_Hands-removebg-preview.png"  style="width:900px;height:400px;"></div>
+		<div class="a"><img src = "{{url_for('static', filename= 'images/People_Hands-removebg-preview.png')}}" style="width:900px;height:400px;"></div>
 		<font face = "Courier"><header style= "font-size: 35px"> <b> How to Increase Equity: </b> </header></font></br>
 		<p style="font-size:20px">
 		The first step is to build consensus about the problem: a lack of equity. Then, identify where it comes from. </br>
@@ -197,9 +200,9 @@
 				Thus, even if small sacrifices might be made, it would still benefit the whole community. </br>
 			</p>
 		</div>
-		<script src= "tabs.js"></script>
+		<script src = "{{url_for('static', filename= 'js/tabs.js')}}"></script>
 		</br>
-		<div class="a"><img src="images/comic.jpg"  style="width:900px;height:500px;"></div>
+		<div class="a"><img src="comic.jpg"  style="width:900px;height:500px;"></div>
 	
 	</div>
 
@@ -220,7 +223,7 @@
 		</p>
 
 		<div class="a">
-		<img src="images/diversity-removebg-preview.png"  style="width:1000px;height:500px;">
+		<img src="diversity-removebg-preview.png"  style="width:1000px;height:500px;">
 		</div>
 		</br>
 		<font face = "Courier"><header style= "font-size: 35px"> <u> <b>Why Do Diversity, Equity, and Inclusion Matter? </b></u> </header></font><br />
@@ -251,7 +254,7 @@
 			They need to be flexible and change to fit the organization’s social climate, and they need to be modeled based on the requests of the people they are made for. </br>
 		</p>
 		<div class="a">
-		<img src="images/deivenndiagram.png"  style="width:700px;height:600px;">
+		<img src="deivenndiagram.png"  style="width:700px;height:600px;">
 		</div> </br>
 		<font face = "Courier"><header style= "font-size: 40px"> <u> <b> So,Start With Us </b> </u> </header></font><br />
 		<p  style= "font-size: 20px">
@@ -260,7 +263,7 @@
 			There, we provide ways for companies to become more equitable, such as blind hiring methods and employee feedback systems. </br>
 		</p>
 		<div class="a">
-		<img src="images/Success-removebg-preview.png"  style="width:700px;height:500px;">
+		<img src="Success-removebg-preview.png"  style="width:700px;height:500px;">
 		</div> </br>
 		<p  style= "font-size: 20px">
 			However, even with all of our data, we stress that the benefits of DEI cannot be obtained if a company is just recruiting new employees for the sake of meeting a quota. </br>
@@ -270,6 +273,6 @@
 		<p style= "font-size: 50px ; color:blue"> <a href="https://www.theraleighregister.com/survey-monkey6.html"> <u>Remember, change starts with you!  </a></u></p>
 		</div>
 	</div>
-	<script src= "tabs.js"></script>
+	<script src = "{{url_for('static', filename= 'js/tabs.js')}}"></script>
 	</body>
 </html>
