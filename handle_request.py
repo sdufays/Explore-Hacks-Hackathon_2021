@@ -3,7 +3,9 @@ from flask import Flask, redirect, url_for, render_template
 from main import diversity, equity, inclusion
 
 
-app = Flask(__name__, static_url_path='/static')
+app = Flask(__name__)
+
+
 
 # give route to show Flask the path to get to the function
 @app.route("/")  # the / is default url
@@ -13,14 +15,17 @@ def home():
 @app.route("/diversity")
 def run_diversity():
     diversity("sample_dataset.csv")
+    return render_template('website.html')
 
 @app.route("/equity")
 def run_equity():
     equity("sample_dataset.csv")
-
+    return render_template('website.html')
 @app.route("/inclusion")
 def run_inclusion():
     inclusion("sample_dataset.csv")
+    return render_template('website.html')
+  
 
 # @app.route("/<name>")  # can input parameter directly in the URL
 # def user(name):
