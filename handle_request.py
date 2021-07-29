@@ -8,7 +8,7 @@ app = Flask(__name__)
 # give route to show Flask the path to get to the function
 @app.route("/")  # the / is default url
 def home():
-    return render_template('diversity.html')
+    return render_template('website.html')
 
 @app.route("/diversity")
 def run_diversity():
