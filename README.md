@@ -1,6 +1,6 @@
 Hello!
 
-    If you're reading this, Developing Diversity™ has officially submitted their entry
+If you're reading this, Developing Diversity™ has officially submitted their entry
 for ExploreHacks 2021. The instructions to view the site and the included data
 analytics are as follows:
 
@@ -13,7 +13,7 @@ analytics are as follows:
       \      6. Fill out the survey at the bottom of the About Page             /
        |-----------------------------------------------------------------------|
 
-    For anyone that would like to try out the algorithm, 
+For anyone that would like to try out the algorithm, 
   the steps to do so are as follows:
   
        |-----------------------------------------------------------------------|
@@ -26,7 +26,7 @@ analytics are as follows:
        |-----------------------------------------------------------------------|
 
 
-    We hope you see the value in this project and the importance of the data analysis we
+We hope you see the value in this project and the importance of the data analysis we
 have done. Please be sure to fill out the survey link at the bottom of the About page
 once you are finished looking through the Analytics and Solutions pages. We would love
 your feedback!
